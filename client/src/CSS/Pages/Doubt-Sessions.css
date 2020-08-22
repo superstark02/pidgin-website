@@ -1,0 +1,58 @@
+.sessions-wallpaper{
+    background-image: url(../../Images/Doubt-Sessions/doubt-sessions-wallpaper.jpeg);
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+}
+.pidgin-meet-card, .pidgin-meet-plate, .pidgin-meet-card-steps{
+    width: 200px;
+    height: 280px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(184,179,180,0.2);
+    margin: 40px;
+    padding: 0px 20px;
+    text-align: center;
+}
+
+.pidgin-meet-card-steps{
+    height: auto;
+    padding: 20px;
+    height: 230px;
+}
+
+.pidgin-meet-plate{
+    width: 60%;
+    box-shadow: none;
+    height: auto;
+}
+
+.pidgin-meet-card-header{
+    padding: 10px;
+    text-align: center;
+    background-color: #f50057;
+    color: white;
+    margin: 0px -20px;
+    border-radius: 10px 10px 0px 0px;
+    margin-bottom: 20px;
+}
+
+.pidgin-meet-form{
+    padding: 20px;
+}
+
+.pidgin-meet-text-field{
+    margin: 10px;
+}
+
+.pidgin-meet-content{
+    font-size: 17px;
+    margin-top: 20px;
+}
+
+@media only screen and (max-width:1024px) {
+    .pidgin-meet-plate{
+        margin: 40px 0px;
+        width: 100%;
+        padding: 0px;
+    }
+}

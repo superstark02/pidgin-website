@@ -1,0 +1,53 @@
+.avatarCat{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.topCat{
+    display: flex;
+    padding: 10px;
+    padding-left: 30px;
+    color: black;
+    padding-top: 20px;
+    margin: 0px;
+    background-color: white;
+}
+.imageCat{
+    height:90px;
+    width: 90px;
+    margin: 10px 0px;
+}
+.containerCat{
+    max-width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-bottom: 20px;
+    padding-top: 0px;
+    background-color: white;
+}
+.categoryImageWeb{
+    display: none;
+}
+
+.footer{
+    width: 100%;
+    max-width: 100%;
+    background-color: white;
+    padding: 20px 0px;
+    color: #091626;
+    font-size: 13px;
+    font-weight: 200;
+}
+.footerHeading{
+    font-size: 25px;
+    font-weight: 600;
+    text-align: left;
+    margin-left: 20px;
+}
+
+@media only screen and (max-width:650px) {
+    .footer{
+        padding: 10px;
+        box-shadow: none;
+    }
+}

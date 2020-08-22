@@ -1,0 +1,6 @@
+.workshops-wallpaper{
+    background-image: url(../../Images/Workshops/workshops.jpg);
+    background-position: center;
+    height: 70vh;
+    background-size: cover;
+}

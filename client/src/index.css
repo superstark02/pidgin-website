@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  font-family: Defualt;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+  @font-face {
+    font-family: 'FiraSans';
+    src: local('FiraSans'), url(./Fonts/ABeeZee-Regular.ttf) format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'FiraSansItalic';
+    src: local('FiraSansItalic'), url(./Fonts/ABeeZee-Italic.ttf) format('truetype');
+  }
+
+  @font-face {
+    font-family: 'Friendly';
+    src: local('Friendly'), url(./Fonts/Friendly-Schoolmates/Friendly-Schoolmates-Regular.otf) format('truetype');
+  }
+
+  @font-face {
+    font-family: 'Defualt';
+    src: local('Defualt'), url(./Fonts/Montserrat/Montserrat-Regular.ttf) format('truetype');
+  }

@@ -1,0 +1,111 @@
+.body{
+    width: 1000px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.filter{
+    width: 200px;
+    border: solid 1px #e2e2e2;
+    background-color: white;
+    border-radius: 5px;
+    padding: 14px;
+    height: fit-content;
+}
+.search-list{
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.card-search{
+    border: solid 1px #e2e2e2;
+    border-radius: 3px;
+    width: 500px;
+    height: auto;
+    background-color: white;
+    margin-bottom: 5px;
+    cursor: pointer;
+    color: #202020;
+    padding-bottom: 40px;
+}
+.image{
+    width: 100px;
+    height: 200px;
+}
+.details{
+    padding: 10px;
+    width: fit-content;
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.search-type{
+    font-size: 13px;
+}
+.search-fees{
+    border-top: solid 1px #e2e2e2;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+Link Link:active Link:visited{
+	-webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+								  supported by Chrome, Edge, Opera and Firefox */
+		text-decoration: none;
+}
+a{text-decoration: none;}
+a:visited {text-decoration: none;} /* Visited link    */
+a:hover {text-decoration: none;}   /* Mouse over link */
+a:active {text-decoration: none;} 
+
+.search-search{
+    width: 860px;
+    padding: 0px 20px;
+    background-color: white;
+    font-size: 14px;
+    outline: none;
+    height: 40px;
+    border: none;
+}
+.filter-list-item{
+    font-size: 13px;
+    color: grey;
+    cursor: pointer;
+}
+.filter-list-item:hover{
+    color: #043345;
+}
+.filter-list-head{
+    margin: 20px 0px;
+}
+.chip{
+    color: #f50057;
+    border: 1px solid #f50057;
+    border-radius: 5px;
+}
+.sub-title-list{
+    font-size: 10px;
+    color: rgb(150, 150, 150);
+    margin-top: 10px;
+}
+.search-icon{
+    cursor: pointer;
+    height: 40px;
+    width: 40px;
+    background-color: #00ff99;
+}
+.search-icon:hover{
+    background-color: #00b36b;
+}
+.exclusive-wrap{
+    position: absolute;
+    height: 200px;
+    display: flex;
+    align-items: initial;
+}

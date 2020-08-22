@@ -1,0 +1,23 @@
+.cart-dialog{
+    padding: 20px;
+    height: 70vh;
+    width: 30vw;
+}
+
+.cart-button{
+    text-align: center;
+    padding: 20px;
+    border-top: 1px solid #00d882;
+    position: absolute;
+    width: 90%;
+    bottom: 0;
+    cursor: pointer;
+}
+
+.cart-title{
+    font-size: 18px;
+}
+
+.cart-radio{
+    font-size: 12px;
+}

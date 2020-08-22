@@ -1,0 +1,51 @@
+body,html{
+  margin: 0;
+  font-size: 16px;
+  font-family: Defualt;
+  font-weight: 400;
+  line-height: 1.8em;
+  color: #202020;
+}
+
+.wrap{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mobile{
+  display: none;
+}
+
+@media only screen and (max-width:650px) {
+  .desktop{
+    display: none;
+  }
+  .mobile{
+    display: block;
+  }
+}
+
+
+
+Link Link:active Link:visited{
+	-webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+								  supported by Chrome, Edge, Opera and Firefox */
+    text-decoration: none;
+    color: inherit;
+}
+
+a{text-decoration: none; color: inherit;}
+a:visited {text-decoration: none;color: inherit;} /* Visited link    */
+a:hover {text-decoration: none;color: inherit;}   /* Mouse over link */
+a:active {text-decoration: none;color: inherit;} 
+
+
+
+
