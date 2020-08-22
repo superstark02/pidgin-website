@@ -2,7 +2,6 @@ import React from 'react'
 import step from '../Images/steps.png'
 import '../Components/class.css'
 import firebase,{rdb } from '../firebase'
-import Razorpay from 'razorpay'
 
 class MyCart extends React.Component {
     state = {
