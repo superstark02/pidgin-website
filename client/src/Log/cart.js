@@ -9,29 +9,7 @@ class MyCart extends React.Component {
         total_amount:0,
     }
 
-    componentDidMount() {
-        const razorpay = new Razorpay({
-            key_id: 'rzp_test_hTjjOef8p7eYTN',
-            key_secret: 'JWCALceNpTHpdu5utAvbhEb5',
-        })
-        const options = {
-            amount: (500 * 100).toString(),
-            currency:"INR",
-            receipt: "r",
-            payment_capture: 1
-        }
-
-        try {
-            var order_created = []
-            
-            razorpay.orders.create(options, function(err, order) {
-                order_created.push(order)
-              });
-              console.log(order_created)
-        }catch(e){
-            console.log(e)
-        }
-        
+    componentDidMount() {        
         firebase.auth().onAuthStateChanged(user=>{
             if(user){
                 rdb.ref().child("carts").child(user.uid).on('value', snap =>{
