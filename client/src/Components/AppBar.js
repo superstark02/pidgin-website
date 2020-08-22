@@ -2,7 +2,6 @@ import React from 'react'
 import firebase from '../firebase'
 import './app-bar.css'
 import useScrollTrigger from '@material-ui/core/useScrollTrigger';
-import { connect } from 'react-redux'
 import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom'
 import AppBar from '@material-ui/core/AppBar';
